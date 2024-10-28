@@ -1,0 +1,101 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Add to cart",
+        "description": "",
+        "id": "meesho-application;add-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4422038600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should be navigate the product",
+            "match": {
+              "location": "Meesho_AddCart_Product.userShouldBeNavigateTheProduct()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4380279200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Should be move to the Cursor in men link and click on casual shoe",
+            "match": {
+              "location": "Meesho_AddCart_Product.userShouldBeMoveToTheCursorInMenLinkAndClickOnCasualShoe()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2069022300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Should be Click on Adab trendy men Casul Shoes",
+            "match": {
+              "location": "Meesho_AddCart_Product.userShouldBeClickOnAdabTrendyMenCasulShoes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2084629100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should be Select the Size number7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 37
+                }
+              ],
+              "location": "Meesho_AddCart_Product.userShouldBeSelectTheSizeNumber(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2073601400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be Click on AddCart",
+            "match": {
+              "location": "Meesho_AddCart_Product.userShouldBeClickOnAddCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2330693400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "AddCart Should be Succesfull",
+            "match": {
+              "location": "Meesho_AddCart_Product.addcartShouldBeSuccesfull()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Meesho application",
+    "description": "",
+    "id": "meesho-application",
+    "keyword": "Feature",
+    "uri": "src\\test\\java\\Meesho\\Meesho.feature",
+    "tags": []
+  }
+]

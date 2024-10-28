@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.362133">
+    <testcase classname="Meesho application" name="Add to cart" time="17.362133">
+        <system-out><![CDATA[Given user should be navigate the product...................................passed
+And user Should be move to the Cursor in men link and click on casual shoe..passed
+And user Should be Click on Adab trendy men Casul Shoes.....................passed
+And user should be Select the Size number7..................................passed
+And user should be Click on AddCart.........................................passed
+Then AddCart Should be Succesfull...........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
